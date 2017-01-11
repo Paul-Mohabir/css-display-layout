@@ -49,11 +49,38 @@ h1{
 
 /*Arranging the images */
 .gallery img{
-  width: 700px;
+  box-sizing: content-box;
 }
 #bk {
-  height: 500px;
+  height: 310px;
 }
 #mers {
-  height: 500px;
+  height: 310px;
+}
+.gallery{
+  border-radius: 100px;
+}
+.gallery2{
+  border-radius: 100px;
+  box-sizing: content-box;
+}
+
+
+.editdel {
+  background-color: yellow;
+  color: blue;
+  width: 100px
+}
+img{
+  display: inline-block;
+  width: 33%;
+}
+
+/*footer*/
+
+footer{
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 40px
 }
