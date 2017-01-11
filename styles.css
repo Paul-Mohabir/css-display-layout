@@ -1,3 +1,4 @@
+
 header{
   font-size: 50px;
   border: 100px;
@@ -7,10 +8,41 @@ header{
   text-align: center;
 }
 
-h1{
+h2 {
+  background-color: lightgreen;
+  font-size: 15px:
+}
 
-  list-style-position: outside;
+
+p{
+  font-size: 25;
+  display: inline;
+  width: 50%;
+  line-height: 2.0;
+}
+
+/*MENU BAR*/
+h1{
+  text-align: center;
+  color: white;
+  background-color: grey;
+  display: block;
+}
+.home {
   font-size: 20px;
   text-align: center;
-
+  display: inline-block;
+  padding: 10px;
+}
+.add_pic {
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px
+}
+.about{
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px
 }
