@@ -1,0 +1,16 @@
+header{
+  font-size: 50px;
+  border: 100px;
+  color: white;
+  background-color: black;
+  font-style: bold;
+  text-align: center;
+}
+
+h1{
+
+  list-style-position: outside;
+  font-size: 20px;
+  text-align: center;
+
+}
