@@ -48,37 +48,39 @@ h1{
 }
 
 /*Arranging the images */
-.gallery img{
-  box-sizing: content-box;
-}
-#bk {
-  height: 310px;
-}
-#mers {
-  height: 310px;
-}
-.gallery{
-  border-radius: 100px;
-}
-.gallery2{
-  border-radius: 100px;
-  box-sizing: content-box;
-}
-
-
-.editdel {
-  background-color: yellow;
-  color: blue;
-  width: 100px
-}
-img{
+.gallery .tile{
+  box-sizing: border-box;
   display: inline-block;
   width: 33%;
 }
 
+.gal .tile{
+  box-sizing: border-box;
+  display: inline-block;
+  width: 33%;
+}
+
+h3 {
+  background-color: yellow;
+  color: blue;
+  width: 400px;
+  text-align: center;
+  display: block;
+}
+img{
+  display: inline-block;
+  width: 400px;
+}
+div{
+ padding-left: 25px;
+}
+
+
 /*footer*/
 
 footer{
+  padding-top: 5px;
+  padding-bottom: 0px;
   color: white;
   background-color: black;
   text-align: center;
